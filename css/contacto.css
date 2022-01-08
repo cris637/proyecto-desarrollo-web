@@ -1,0 +1,142 @@
+/* Aca quito los margenes al body */
+body {
+  margin: 0;
+  font-family: "Readex Pro", sans-serif; /*Google Font*/
+}
+/* Estilos del Logo */
+.header {
+  text-align: center;
+  margin-bottom: 0px;
+}
+.header__logo {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header__logo__imagen {
+  width: 40%;
+}
+/* Menu con flexbox*/
+ul {
+  padding: 0%;
+  list-style: none;
+  margin: 5px 0px 0px 0px;
+  background-color: cadetblue;
+}
+li {
+  display: inline-block;
+  background-color: rgb(139, 245, 236);
+}
+li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 0px 20px 0px 20px;
+}
+li a:hover {
+  background-color: cadetblue;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+}
+/* Menu Fin */
+/* Contacto Inicio */
+.main {
+  background-color: rgb(255, 241, 214);
+}
+.contacto__wsp {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 250%;
+}
+.contacto__wsp a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: green;
+}
+.contacto__titulo {
+  margin-top: 20px;
+  margin-bottom: 0px;
+
+  text-align: center;
+  text-decoration: underline;
+  font-size: 180%;
+}
+.contacto__titulo2 {
+  text-align: center;
+  font-size: 180%;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.contacto__mapa__escritorio {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Contacto Fin */
+/*Estilos del Footer */
+.footer {
+  background-color: rgb(255, 241, 214);
+}
+.footer__redes {
+  margin-left: 10px;
+  padding-top: 10px;
+  text-align: left;
+}
+/* Boton para subir */
+.footer__redes__arriba {
+  position: fixed;
+  bottom: 20px;
+  right: 5px;
+  opacity: 70%;
+}
+.footer__redes img {
+  width: 4%;
+}
+.footer__creditos {
+  display: block;
+  text-align: center;
+}
+/*Estilos del Footer Fin*/
+
+/* Vista celular */
+@media screen and (max-width: 599px) {
+  .contacto__mapa__escritorio {
+    display: none;
+  }
+  .contacto__mapa__tablet {
+    display: none;
+  }
+  .contacto__mapa__celular {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+/* Vista Tablet */
+
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .contacto__mapa__escritorio {
+    display: none;
+  }
+  .contacto__mapa__tablet {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .contacto__mapa__celular {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .contacto__mapa__escritorio {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .contacto__mapa__tablet {
+    display: none;
+  }
+  .contacto__mapa__celular {
+    display: none;
+  }
+}
