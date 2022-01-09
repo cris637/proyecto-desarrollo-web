@@ -97,8 +97,8 @@ li a:hover {
 /* Caja con producto y texto */
 
 .contenedor__caja {
-  
-  background-color: rgb(223, 224, 151);
+  background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%); 
+   /* background-color: rgb(223, 224, 151); */
 }
 
 .contenedor__caja__imagen img {
