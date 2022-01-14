@@ -87,15 +87,18 @@ li a:hover {
 }
 /* Caja con producto y texto Fin */
 
-/*Estilos del Footer */
-.footer {
-  background-color: rgb(255, 241, 214);
+/* Divisor */
+.divisor {
+  height: 60px;
+  background-color: rgb(231, 173, 231);
 }
-.footer__redes {
-  margin-left: 10px;
-  padding-top: 10px;
-  text-align: left;
+
+/* Divisor */
+.divisor {
+  height: 60px;
+  background-color: rgb(231, 173, 231);
 }
+
 /* Boton para subir */
 .footer__redes__arriba {
   position: fixed;
@@ -103,12 +106,8 @@ li a:hover {
   right: 5px;
   opacity: 70%;
 }
-.footer__redes img {
+.arriba img {
   width: 4%;
-}
-.footer__creditos {
-  display: block;
-  text-align: center;
 }
 /*Estilos del Footer Fin*/
 /* Vista celular */

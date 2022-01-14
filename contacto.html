@@ -4,8 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+     <!-- Link a Estilos Bootstrap-->
+     <link rel="stylesheet" href="css-bs/bootstrap.min.css" />
+
+   
     <!-- Link a Estilos -->
     <link rel="stylesheet" href="css/contacto.css" />
+
+    
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,6 +20,26 @@
       href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;500;700&display=swap"
       rel="stylesheet"
     />
+
+<!-- Favicon -->
+<link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="./img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="./img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
     <!-- Titulo de la pagina -->
     <title>Eluniste-Contacto</title>
   </head>
@@ -41,9 +68,9 @@
     <main class="main">
       <section class="contacto">
         <div class="contacto__wsp">
-          <a href="https://wa.me/11111?text=Quiero%20Comunicarme"
-            >Comunicarse via Whatsapp</a
-          >
+          
+          <a target="_blank" href="https://wa.me/11111?text=Quiero%20Comunicarme" class="btn-lg btn-success">Comunicarse via Whatsapp</a>
+          
         </div>
         <h3 class="contacto__titulo">Dias de atencion:</h3>
         <h3 class="contacto__titulo2">Lunes a Viernes</h3>
@@ -85,34 +112,93 @@
           ></iframe>
         </div>
       </section>
+      <div class="divisor"></div>
+      <div class="divisor"></div>
+
     </main>
     <!-- Fin del Main -->
     <!-- Inicio del footer, donde se encuentran redes y boton para subir -->
-    <footer class="footer">
-      <div class="footer__redes">
-        <a target="_blank" href="https://www.facebook.com/"
-          ><img
-            src="./img/facebook.png"
-            alt="logo facebook"
-            class="footer__redes__face"
-        /></a>
-        <a target="_blank" href="https://www.instagram.com/"
-          ><img
-            src="./img/instagram.png"
-            alt="logo instagram"
-            class="footer__redes__insta"
-        /></a>
-        <!-- Boton subir -->
+   
+   
+      <!-- Inicio del footer, donde se encuentran redes y boton para subir -->
+
+      <footer class="text-center bg-light text-black">
+        <div class="container">
+          <section class="mt-0">
+            <div class="row text-center d-flex justify-content-center pt-5">
+              <div class="col-md-2">
+                <h6 class="font-weight-bold">
+                  <a href="./index.html" class="link-dark">Inicio</a>
+                </h6>
+              </div>
+  
+              <div class="col-md-2">
+                <h6 class="font-weight-bold">
+                  <a href="./blog.html" class="link-dark">Blog</a>
+                </h6>
+              </div>
+  
+              <div class="col-md-2">
+                <h6 class="font-weight-bold">
+                  <a href="./tienda.html" class="link-dark">Tienda</a>
+                </h6>
+              </div>
+  
+              <div class="col-md-2">
+                <h6 class="font-weight-bold">
+                  <a href="./nosotros.html" class="link-dark">Nosotros</a>
+                </h6>
+              </div>
+  
+              <div class="col-md-2">
+                <h6 class="font-weight-bold">
+                  <a href="#" class="link-dark">Contacto</a>
+                </h6>
+              </div>
+            </div>
+          </section>
+  
+          <hr class="my-5" />
+  
+          <section class="text-center mb-5">
+            <a target="_blank" href="https://www.facebook.com/" class="m-5">
+              <i class="fab fa-facebook-f fa-2x"></i>
+            </a>
+  
+            <a target="_blank" href="https://www.instagram.com/" class="link-danger m-5">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+          </section>
+        </div>
+  
+        <div class="text-center p-3">
+          <p
+            class="footer__creditos animate__animated animate__fadeInDown animate__delay-2s"
+          >
+            Pagina Web creada por Cristián Javier Abregú
+          </p>
+        </div>
+      </footer>
+      <!-- Boton subir -->
+      <div class="arriba">
         <a href="#header"
-          ><img
-            src="./img/arriba.png"
-            alt="logo arriba"
-            class="footer__redes__arriba"
-        /></a>
+            ><img
+              src="./img/arriba.png"
+              alt="logo arriba"
+              class="footer__redes__arriba"
+          /></a>
       </div>
-      <span class="footer__creditos animate__animated animate__fadeInDown animate__delay-2s"
-        >Pagina Web creada por Cristián Javier Abregú</span
-      >
-    </footer>
+      
+  
+      <!-- Font Awesome pack de iconos -->
+      <script
+        src="https://kit.fontawesome.com/8a6e9501d2.js"
+        crossorigin="anonymous"
+      ></script>
+
+
+
+     <!-- JS Boootstrap -->
+     <script src="./js-bs/bootstrap.bundle.min.js"></script>
   </body>
 </html>
