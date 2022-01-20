@@ -1,0 +1,89 @@
+/* Aca quito los margenes al body */
+body {
+  margin: 0;
+  font-family: "Readex Pro", sans-serif; /*Google Font*/
+}
+/* Estilos del Logo */
+.header {
+  text-align: center;
+  margin-bottom: 0px;
+  &__logo {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    &__imagen {
+      width: 40%;
+    }
+  }
+}
+/* Menu con flexbox*/
+ul {
+  padding: 0%;
+  list-style: none;
+  margin: 5px 0px 0px 0px;
+  background-color: cadetblue;
+}
+li {
+  display: inline-block;
+  background-color: rgb(139, 245, 236);
+  a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 0px 20px 0px 20px;
+    &:hover {
+      background-color: cadetblue;
+    }
+  }
+}
+.menu {
+  display: flex;
+  justify-content: center;
+}
+/* Menu Fin */
+/* Nosotros Inicio */
+.main {
+  background-color: rgb(255, 241, 214);
+}
+.nosotros {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  &__titulo {
+    padding-top: 50px;
+    margin-top: 0%;
+  }
+  &__img {
+    width: 70%;
+    margin: auto;
+    display: block;
+  }
+}
+/* Nosotros Fin */
+/* Divisor */
+.divisor {
+  height: 60px;
+  background-color: rgb(255, 241, 214);
+}
+/* Boton para subir */
+.footer__redes__arriba {
+  position: fixed;
+  bottom: 20px;
+  right: 5px;
+  opacity: 70%;
+}
+.arriba img {
+  width: 4%;
+}
+/* Vista celular */
+@media screen and (max-width: 599px) {
+  .nosotros {
+    width: 90%;
+  }
+}
+
+/* Vista Tablet */
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .nosotros {
+    width: 80%;
+  }
+}
