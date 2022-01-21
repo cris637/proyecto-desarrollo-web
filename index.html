@@ -8,11 +8,11 @@
     <!-- Link a Estilos Bootstrap-->
     <link rel="stylesheet" href="css-bs/bootstrap.min.css" />
 
-     <!-- Font Awesome pack de iconos -->
-     <script
-     src="https://kit.fontawesome.com/8a6e9501d2.js"
-     crossorigin="anonymous"
-   ></script>
+    <!-- Font Awesome pack de iconos -->
+    <script
+      src="https://kit.fontawesome.com/8a6e9501d2.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Link a Estilos -->
     <link rel="stylesheet" href="css/index.css" />
@@ -30,27 +30,83 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
 
-
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="./img/favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="./img/favicon/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-
-
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./img/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./img/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./img/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./img/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./img/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./img/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./img/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./img/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./img/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./img/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./img/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
 
     <!-- Titulo de la pagina -->
     <title>Eluniste</title>
@@ -79,10 +135,65 @@
     </header>
     <!-- Inicio de la seccion main -->
     <main class="main">
-      <!-- Imagen de portada de la web -->
-      <div class="portada">
-        <img src="./img/portada.svg" alt="portada" class="portada__imagen" />
+      <!-- Carrousell de portada de la web -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/portada.svg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/portada2.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/portada3.png" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
+
       <!-- Divisor -->
       <div class="divisor"></div>
 
@@ -179,7 +290,6 @@
     <div class="divisor"></div>
     <!-- Fin del Main -->
 
-
     <!-- Inicio del footer, donde se encuentran redes y boton para subir -->
 
     <footer class="text-center bg-light text-black">
@@ -225,7 +335,11 @@
             <i class="fab fa-facebook-f fa-2x"></i>
           </a>
 
-          <a target="_blank" href="https://www.instagram.com/" class="link-danger m-5">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/"
+            class="link-danger m-5"
+          >
             <i class="fab fa-instagram fa-2x"></i>
           </a>
         </section>
@@ -242,15 +356,12 @@
     <!-- Boton subir -->
     <div class="arriba">
       <a href="#header"
-          ><img
-            src="./img/arriba.png"
-            alt="logo arriba"
-            class="footer__redes__arriba"
-        /></a>
+        ><img
+          src="./img/arriba.png"
+          alt="logo arriba"
+          class="footer__redes__arriba"
+      /></a>
     </div>
-    
-
-   
 
     <!-- JS Boootstrap -->
     <script src="./js-bs/bootstrap.bundle.min.js"></script>
