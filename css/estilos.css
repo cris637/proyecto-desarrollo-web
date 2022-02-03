@@ -1,3 +1,31 @@
+.footer__redes__arriba {
+  position: fixed;
+  bottom: 20px;
+  right: 5px;
+  opacity: 70%;
+}
+
+.nosotros {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.nosotros__titulo, .nosotros__texto {
+  padding-top: 20px;
+  margin-top: 0%;
+}
+
+.nosotros__texto {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.nosotros__img {
+  width: 70%;
+  margin: auto;
+  display: block;
+}
+
 /* Aca quito los margenes al body */
 body {
   margin: 0;
@@ -64,36 +92,10 @@ li a:hover {
   background-color: #fff1d6;
 }
 
-.nosotros {
-  width: 60%;
-  margin: auto;
-  text-align: center;
-}
-
-.nosotros__titulo {
-  padding-top: 50px;
-  margin-top: 0%;
-}
-
-.nosotros__img {
-  width: 70%;
-  margin: auto;
-  display: block;
-}
-
-/* Nosotros Fin */
 /* Divisor */
 .divisor {
   height: 60px;
   background-color: #fff1d6;
-}
-
-/* Boton para subir */
-.footer__redes__arriba {
-  position: fixed;
-  bottom: 20px;
-  right: 5px;
-  opacity: 70%;
 }
 
 .arriba img {
