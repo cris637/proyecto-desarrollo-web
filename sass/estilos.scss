@@ -114,6 +114,16 @@ body {
     width: 100%;
   }
 }
+.compra {
+  color: black;
+  text-decoration: none;
+  &:hover {
+    background-color: #96fbc4;
+    color: black;
+    }}
+
+
+
 /* Caja con producto y texto Fin */
 
 /* Divisor */
@@ -228,9 +238,6 @@ body {
   margin-top: 20px;
 }
 
-
-
-
 // ResponsiveIndex
 /* Vista celular */
 @media screen and (max-width: 599px) {
@@ -250,7 +257,7 @@ body {
       "box1 box2" "box3 box4"
       "box5 box6" "box7 box8";
   }
-// Blog
+  // Blog
   .noticia {
     width: 90%;
     margin: auto;
@@ -299,7 +306,7 @@ body {
       "box1 box2 box3 box4"
       "box5 box6 box7 box8";
   }
-// Blog
+  // Blog
   .noticia {
     width: 75%;
     margin: auto;
@@ -310,7 +317,7 @@ body {
     display: block;
     width: 70%;
   }
-  
+
   // Tienda
   .contenedor__caja__imagen {
     width: 300px;

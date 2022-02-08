@@ -182,6 +182,16 @@ body {
   width: 100%;
 }
 
+.compra {
+  color: black;
+  text-decoration: none;
+}
+
+.compra:hover {
+  background-color: #96fbc4;
+  color: black;
+}
+
 /* Caja con producto y texto Fin */
 /* Divisor */
 .divisorVioleta {
