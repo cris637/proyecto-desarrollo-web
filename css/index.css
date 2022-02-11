@@ -135,7 +135,7 @@ body {
 
 /* Vista celular */
 @media screen and (max-width: 599px) {
-  .contenedor {
+  .contenedorIndex {
     background-color: rgb(231, 173, 231);
     text-align: center;
     display: grid;
@@ -154,7 +154,7 @@ body {
 }
 /* Vista Tablet */
 @media only screen and (min-width: 600px) and (max-width: 1023px) {
-  .contenedor {
+  .contenedorIndex {
     background-color: rgb(231, 173, 231);
     text-align: center;
     display: grid;
