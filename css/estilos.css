@@ -252,6 +252,7 @@ body {
 .contenedor {
   background-color: #e7ade7;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .contenedor__caja {
@@ -324,8 +325,8 @@ body {
     text-align: center;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
     -ms-grid-rows: auto;
         grid-template-rows: auto;
     -webkit-column-gap: 10px;
@@ -335,7 +336,7 @@ body {
     padding-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
-        grid-template-areas: "box1 box2" "box3 box4" "box5 box6" "box7 box8";
+        grid-template-areas: "box1"  "box2" "box3" "box4" "box5" "box6" "box7" "box8";
   }
   .noticia {
     width: 90%;

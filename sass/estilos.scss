@@ -187,6 +187,7 @@ body {
 .contenedor {
   background-color: rgb(231, 173, 231);
   text-align: center;
+  padding-bottom: 20px;
   &__caja {
     display: inline-block;
     margin: 5px 5px 5px 5px;
@@ -252,7 +253,7 @@ body {
     background-color: rgb(231, 173, 231);
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
     column-gap: 10px;
     row-gap: 15px;
@@ -261,8 +262,14 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     grid-template-areas:
-      "box1 box2" "box3 box4"
-      "box5 box6" "box7 box8";
+      "box1" 
+      "box2"
+      "box3"
+      "box4"
+      "box5"
+      "box6"
+      "box7"
+      "box8";
   }
   // Blog
   .noticia {
